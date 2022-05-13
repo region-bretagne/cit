@@ -35,19 +35,19 @@
 							communes</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_population/{{dataid}}">Population du
 							territoire</a>
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_logement/{{dataid}}">Logements et habitat</a>
-						{{#epci_qpv}}
-							<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_qpv/{{dataid}}">Quartiers prioritaires de la ville</a>
-						{{/epci_qpv}}
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_egalite_sexes/{{dataid}}">Égalité femmes-hommes</a>
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_jeunesse/{{dataid}}">Jeunesse</a>
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_patrimoine_contexte/{{dataid}}">Patrimoine</a>
 						{{#epci_2021}}
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_sante/{{dataid}}">Santé</a>
 						{{/epci_2021}}
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_environnement_situation/{{dataid}}">Environnement</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_situation_eco/{{dataid}}">Economie et emploi</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_logement/{{dataid}}">Logements et habitat</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_environnement_situation/{{dataid}}">Environnement</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_patrimoine_contexte/{{dataid}}">Patrimoine</a>						
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_schemas/{{dataid}}">Les schémas</a>
+						{{#epci_qpv}}
+							<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_qpv/{{dataid}}">[Focus] Quartiers prioritaires de la ville</a>
+						{{/epci_qpv}}
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_egalite_sexes/{{dataid}}"> [Focus] Égalité femmes-hommes</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_jeunesse/{{dataid}}">[Focus] Jeunesse</a>
 					</div>
 				</div>
 			</div>
