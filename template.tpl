@@ -35,7 +35,7 @@
 							communes</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_population/{{dataid}}">Population du
 							territoire</a>
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_logement/{{dataid}}">Logements et habitat</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_logement/{{dataid}}">Logement et habitat</a>
 						{{#epci_2021}}
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_sante/{{dataid}}">Santé</a>
 						{{/epci_2021}}
