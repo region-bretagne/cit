@@ -87,7 +87,7 @@
 						{{#lycee}}
 							<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_lycee/{{dataid}}">Lycées - éducation</a>
 						{{/lycee}}
-												<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_orientation/{{dataid}}">Orientation</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_orientation/{{dataid}}">Orientation</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_formation/{{dataid}}">Emploi – formation</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_economie/{{dataid}}">Economie</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_commande_pub/{{dataid}}">Commande publique</a>
@@ -114,10 +114,10 @@
 				</div>
 			</div>
 
-		{{#test_liamm}}
+		<!--{{#test_liamm}}
 			<div id="liamm_{{dataid}}" class="card">
 				<a class="fiche-level-1 card-header" target="_blank" href="{{liamm}}">Notes et suivis de dossiers (Espace Territorial)<span><i class="fas fa-chart-line"/></span></a>
-			</div>
+			</div> -->
 		{{/test_liamm}}
 		</div> <!-- card-body -->
 	</div> <!-- content-list -->
