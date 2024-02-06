@@ -11,6 +11,13 @@ h1{
   margin-left:10px;
 
 }
+a.titlep {
+    color: #8eb9c5;
+	}
+.titlep:hover {
+	color: #8eb9c5;!important
+	text-decoration:underline;!important
+	}
 
 #map {
     display: -webkit-box;
@@ -403,6 +410,10 @@ header .cancel{
     width:30px;
     vertical-align:bottom;
   }
+	
+	.titlep a:visited {
+	color: #8eb9c5;
+	}  
 
     .email_trigger{
     position:absolute;

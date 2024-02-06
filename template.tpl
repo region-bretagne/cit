@@ -14,10 +14,8 @@
 				</div>
 				<div id="overview_{{dataid}}" class="collapse" aria-labelledby="heading-{{dataid}}@1">
 					<div class="fiche-list card-body">
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_chiffres_cles/{{dataid}}">Les chiffres clés</a>
-						{{#epci_2021}}
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_capacites/{{dataid}}">Capacités de développement</a>
-						{{/epci_2021}}						
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_chiffres_cles/{{dataid}}">Les chiffres clés</a>						
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_capacites/{{dataid}}">Capacités de développement</a>						
 					</div>
 				</div>
 			</div>
@@ -43,10 +41,11 @@
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_environnement_situation/{{dataid}}">Environnement</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_situation_eco/{{dataid}}">Economie et emploi</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_schemas/{{dataid}}">Les schémas</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_conso_sols/{{dataid}}">[Focus] Occupation des sols</a>
 						{{#epci_qpv}}
 							<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_qpv/{{dataid}}">[Focus] Quartiers prioritaires de la ville</a>
 						{{/epci_qpv}}
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_egalite_sexes/{{dataid}}"> [Focus] Égalité femmes-hommes</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_egalite_sexes/{{dataid}}">[Focus] Égalité femmes-hommes</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_jeunesse/{{dataid}}">[Focus] Jeunesse</a>
 					</div>
 				</div>
@@ -80,7 +79,7 @@
 							<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_port40/{{dataid}}">Ports </a>
 						{{/ports5}}
 						<a class="fiche-level-2 disabled">Mobilités</a>						
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_culture/{{dataid}}">Culture</a>
+						<!--<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_culture/{{dataid}}">Culture</a>-->
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_patrimoine/{{dataid}}">Inventaire du patrimoine </a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_territoire/{{dataid}}">Politiques territoriales</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_environnement_action_regionale/{{dataid}}">Environnement</a>
@@ -90,15 +89,17 @@
 												<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_orientation/{{dataid}}">Orientation</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_formation/{{dataid}}">Emploi – formation</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_economie/{{dataid}}">Economie</a>
+<!---
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/epci_commande_pub/{{dataid}}">Commande publique</a>
+--->
 					</div>
 				</div>
 			</div>
-
+<!---
 			<div class="card"><a class="fiche-level-1 card-header" target="_blank" href="https://kartenn.region-bretagne.fr/ws/breizhcop/engagements.php?siren={{dataid}}" >
 				L’engagement du territoire dans la Breizh Cop <span><i class="fas fa-chart-line"/></span></a>
 			</div>
-
+--->
 			<div class="card card-theme">
 				<div class="link card-header collapsed" id="heading-{{dataid}}@3" data-toggle="collapse"
 					data-target="#feed_{{dataid}}"
