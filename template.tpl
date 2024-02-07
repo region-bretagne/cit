@@ -22,6 +22,29 @@
 
 			<div class="card card-theme">
 				<div class="link card-header collapsed" id="heading-{{dataid}}@1" data-toggle="collapse"
+					data-target="#support_{{dataid}}"
+					aria-expanded="false" aria-controls="{{dataid}}">
+					<h5 class="mb-0">Connaître les aides régionales<span class="counter badge badge-dark">0</span></h5>
+				</div>
+
+				<div id="support_{{dataid}}" class="collapse" aria-labelledby="heading-{{dataid}}@1">
+					<div class="fiche-list card-body">
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_2023_PEPCI/{{dataid}}">Soutien régional au territoire</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission1_2023/{{dataid}}">[1] Vie lycéenne et étudiante</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission2_2023/{{dataid}}">[2] Emploi, formation, orientation</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission3_2023/{{dataid}}">[3] Qualité de vie et rayonnement</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission4_2023/{{dataid}}">[4] Cohésion territoriale et sociale</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission5_2023/{{dataid}}">[5] Dev. économique, aricole et maritime</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission6_2023/{{dataid}}">[6] Transition écologique et climatique</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission7_2023/{{dataid}}">[7] Mobilités</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission8_2023/{{dataid}}">[8] Action internationale, fonds européens</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission9_2023/{{dataid}}">[9] Ressources et accompagnement des politiques</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card card-theme">
+				<div class="link card-header collapsed" id="heading-{{dataid}}@1" data-toggle="collapse"
 					data-target="#territory_{{dataid}}"
 					aria-expanded="false" aria-controls="{{dataid}}">
 					<h5 class="mb-0">Connaître le territoire<span class="counter badge badge-dark">0</span></h5>
