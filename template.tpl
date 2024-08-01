@@ -34,7 +34,7 @@
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission2_2023/{{dataid}}">[2] Emploi, formation, orientation</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission3_2023/{{dataid}}">[3] Qualité de vie et rayonnement</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission4_2023/{{dataid}}">[4] Cohésion territoriale et sociale</a>
-						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission5_2023/{{dataid}}">[5] Dev. économique, aricole et maritime</a>
+						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission5_2023/{{dataid}}">[5] Dev. économique, agricole et maritime</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission6_2023/{{dataid}}">[6] Transition écologique et climatique</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission7_2023/{{dataid}}">[7] Mobilités</a>
 						<a class="fiche-level-2 enabled" target="_blank" href="https://kartenn.region-bretagne.fr/mreport/aide_territo_mission8_2023/{{dataid}}">[8] Action internationale, fonds européens</a>
